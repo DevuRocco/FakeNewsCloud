@@ -45,7 +45,7 @@ def cleaning(text):
 
 @st.cache(suppress_st_warning=True)
 def load_data():
-	news_data = pd.read_csv("Input\\NewsDatashortv.csv")        # read csv file 
+	news_data = pd.read_csv("Input/NewsDatashortv.csv")        # read csv file 
 	return news_data
 
 @st.cache(suppress_st_warning=True)
@@ -77,7 +77,7 @@ def create_real_table(news_data):
 	st.table(rslt_real)
 
 
-local_css("Input\\style.css")
+local_css("Input/style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 icon("search")
 
