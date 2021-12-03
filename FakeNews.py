@@ -127,6 +127,6 @@ try:
 except Exception as e:
 	print(e)
 	st.error(e)
-	traceback.print_exc()
+	#traceback.print_exc()
 
 
