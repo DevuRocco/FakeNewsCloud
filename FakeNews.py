@@ -14,8 +14,8 @@ import matplotlib
 import matplotlib.pyplot as plt
 import nltk
 from nltk.corpus import stopwords
-#nltk.download('punkt')
-#nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 stop_words = stopwords.words()
 
