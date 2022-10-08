@@ -1,4 +1,5 @@
 Introduction - 
+----------------------------
 
 The digital world that we live has created various means of producing and consuming information of any kind. For instance, social media becomes one of the most 
 popular for news production and consumption due to its easy access, fast dissemination, and low cost. However, it also enables wide spread of “Fake News”.
@@ -12,21 +13,22 @@ The root causes, the spread and the consequences of fake news are all complex is
 fake news and proposed several approaches to address the issue. The following projects are dealing with Fake News.
 
 Hadoop/MapReduce implementation for Fake News Detection - 
+----------------------------
 
 In this project, I gained hands-on experience with the MapReduce programming model building by running an application using Hadoop. As explained above, fake news datasets are in abundance. However, there are very few platforms that can analyse such datasets. In this project, I am implementing some learning algorithms to analyse fake news datasets using Hadoop/MapReduce model:
 
-a. Identify a source or sources of fake news.
+* Identify a source or sources of fake news.
 
-b. Define the type of analysis on the fake news dataset.
+* Define the type of analysis on the fake news dataset.
 
-c. Choose a learning algorithm for fake news analysis.
+* Choose a learning algorithm for fake news analysis.
 
-d. Implement the selected learning algorithm in Hadoop/MapReduce. (Recommendation: Cloudera HDP data platform or AWS platform)
+* Implement the selected learning algorithm in Hadoop/MapReduce. (Recommendation: Cloudera HDP data platform or AWS platform)
 
-e. Build a Dashboard to run this analysis and display the results.
-
+* Build a Dashboard to run this analysis and display the results.
 
 Steps to execute the python code:
+----------------------------
 
 First install the following pip dependencies
 1. pip install pandas
@@ -43,15 +45,18 @@ Then,
 ----------------------------------------------------------------------------------------------------
 
 To run the cloud hosted application:
+----------------------------
 
 1. Open any browser
 2. Open cloud hosted application link
 3. This will run the cloud hosted datawarehouse application of fakenews
-------------------------------------------------------------------------
+
+
 OR
-------------------------------------------------------------------------
+
 
 To run from Bash Terminal:
+----------------------------
 
 1. Access the Pem file that was created to access the application
 2. RUN THE COMMAND -> ssh -i fakenews.pem centos@34.243.126.238
