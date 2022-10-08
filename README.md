@@ -16,7 +16,11 @@ Hadoop/MapReduce implementation for Fake News Detection -
 In this project, I gained hands-on experience with the MapReduce programming model building by running an application using Hadoop. As explained above, fake news datasets are in abundance. However, there are very few platforms that can analyse such datasets. In this project, I am implementing some learning algorithms to analyse fake news datasets using Hadoop/MapReduce model:
 
 a. Identify a source or sources of fake news.
+
 b. Define the type of analysis on the fake news dataset.
+
 c. Choose a learning algorithm for fake news analysis.
+
 d. Implement the selected learning algorithm in Hadoop/MapReduce. (Recommendation: Cloudera HDP data platform or AWS platform)
+
 e. Build a Dashboard to run this analysis and display the results.
