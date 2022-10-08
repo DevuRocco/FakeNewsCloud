@@ -24,3 +24,41 @@ c. Choose a learning algorithm for fake news analysis.
 d. Implement the selected learning algorithm in Hadoop/MapReduce. (Recommendation: Cloudera HDP data platform or AWS platform)
 
 e. Build a Dashboard to run this analysis and display the results.
+
+
+Steps to execute the python code:
+
+First install the following pip dependencies
+1. pip install pandas
+2. pip install numpy
+3. pip install matplotlib
+4. pip install streamlit
+5. pip install nltk
+
+Then,
+1. Open CMD from the ProjectSourceCode folder.
+2. Run command -> streamlit run FakeNews.py
+3. This will run the python code on local host
+
+----------------------------------------------------------------------------------------------------
+
+To run the cloud hosted application:
+
+1. Open any browser
+2. Open cloud hosted application link
+3. This will run the cloud hosted datawarehouse application of fakenews
+------------------------------------------------------------------------
+OR
+------------------------------------------------------------------------
+
+To run from Bash Terminal:
+
+1. Access the Pem file that was created to access the application
+2. RUN THE COMMAND -> ssh -i fakenews.pem centos@34.243.126.238
+3. Run the command -> sudo su
+4. run the command -> cd FakeNews/
+5. run the command -> cd FakeNewsCloud/
+6. Run the command -> tmux a -t 0 
+7. This will open the tmux session
+8. Run command -> streamlit run FakeNews.py --server.port=80
+9. Now copy the external server URL into a browser and it will launch the hosted application
